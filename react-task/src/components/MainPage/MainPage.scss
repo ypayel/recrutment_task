@@ -1,5 +1,55 @@
-@media only screen and (max-width: 1920px) {
 .header-conteiner {
+    background-color: #89CFF0;
+}
+.header {
+    color: blue;
+}
+.click-button {
+    color:white;
+    border-radius: 18px;
+    background-color: darkblue;
+    height: 45px;
+    width: 250px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.computer-image {
+    background-color: #7393B3;
+}
+
+@media only screen and (max-width: 1440px) {
+    .main-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
     
+    .header-conteiner {
+        width: 500px;
+        height: 365px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .computer-image {
+        width: 500px; 
+    }
+}
+
+@media only screen and (max-width: 768px) {
+.header-conteiner {
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+
+@media only screen and (max-width: 375px) {
+.header-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 }

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./MainPage.scss"
 export const MainPage = () => {
     return (
@@ -11,7 +12,7 @@ export const MainPage = () => {
           Ducimus ratione quos ad quasi esse dolore aperiam?
           Illum nobis suscipit quis inventore earum velit explicabo?
           </p>
-          <button className='click-button'>Попробовать бесплатно <img src="/images/up-arrow.png" alt="arrow" className="icon-arrow" /></button>
+          <button className='click-button'><Link to="/login">Попробовать бесплатно</Link><img src="/images/up-arrow.png" alt="arrow" className="icon-arrow" /></button>
       </div>
       <img src="/images/comp.svg" alt="computer" className='computer-image' />
       </div>

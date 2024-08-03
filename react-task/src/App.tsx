@@ -10,7 +10,6 @@ function App() {
         <Route path="/main" element={<MainPage/>}/>
         <Route path='/login' element={<LoginForm/>}/>
       </Routes>
-      
     </div>
   );
 }
